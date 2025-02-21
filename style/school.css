@@ -150,10 +150,122 @@ nav ul li a {
     padding: 10px 10px;
     width: 197px;
 }
+/* standard-section-style */
+
+.standard-section{
+    max-width: 1440px;
+    background-image: url(/assets/bg.png);
+    margin: 0px auto;
+}
+.standard-hero{
+    color: #111111;
+    font-weight: bold;
+    font-size: 2.9rem;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.card{
+    width: 367px;
+    height: 476px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #DEF5FF,  #FFFFFF);
+    /* box-shadow:  0px -4px 10px 0px rgba(0, 0, 0, 55%); */
+    box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 55%);
+    align-items: center;
+    border-radius: 15px;
+    justify-content: center;
+    margin-bottom: 80px;
+    
+}
+#color-2{
+    background: linear-gradient(180deg, #FFF4DC,  #FFFFFF);
+    /* box-shadow:  0px -4px 10px 0px rgba(0, 0, 0, 55%); */
+    box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 55%);
+    
+}
+#color-3{
+    background: linear-gradient(180deg, #F2E8FF ,  #FFFFFF);
+    /* box-shadow:  0px -4px 10px 0px rgba(0, 0, 0, 55%); */
+    box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 55%);
+}
+#read-blue{
+    color: #F0AA00;
+}
+#read-lue{
+    color: #8700FF;
+}
+.total-card{
+    display:flex;
+    justify-content: center;
+    gap: 24px;
+   
+    
+}
+.stardard-button {
+    width: 60px;
+    height: 60px;
+    background-color:var(--primary-color);
+    border: none;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 60px;
+
+}
+
+.standard-title{
+    color: #111111;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 32px 0px;
+
+}
+.standard-describtion{
+    color: #808080;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 28px;
+    margin-bottom: 32px;
+
+}
+.standard-btn{
+    color: #64C8FF;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+    width:102px;
+    height: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* small device responsive  */
 
 @media screen and (max-width : 576px) {
+/* nav section responsive */
 .nav-bar{
     flex-direction: row;
 }
@@ -176,15 +288,12 @@ nav ul li a {
     align-items: center;
     text-align: center;
 }
-.banner-title{
-    /* text-align: center; */
-}
-.banner-describtion{
-    /* text-align: center; */
-}
+
 .banner-img img {
     width: 100%;
 }
+
+/* standard-section-responsive */
 
 
 
